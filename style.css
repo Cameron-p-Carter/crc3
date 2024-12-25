@@ -109,4 +109,6 @@ main > article > .article-description-section {
 
 main > article > .article-image-section {
   background-image: url("https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg");
+  background-position: center;
+  background-size: cover;
 }
