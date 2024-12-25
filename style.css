@@ -129,12 +129,14 @@ main > article > .article-title-section {
   align-items: center; 
   justify-content: space-between;
   padding: 2rem 4rem;
+}
+
+main > article > .article-title-section > h2 {
   flex-basis: 50%;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 3rem;
   margin: 0px;
 }
-
 
 main > article > .article-nav-section > .article-nav-button {
   background-color: transparent;
