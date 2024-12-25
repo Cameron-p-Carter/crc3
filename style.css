@@ -136,6 +136,9 @@ main > article > .article-title-section > h2 {
   font-size: 3.5rem;
   line-height: 3rem;
   margin: 0px;
+  font-family: Impact, monospace;
+  font-weight: 900;
+  letter-spacing:2px;
 }
 
 main > article > .article-nav-section > .article-nav-button {
