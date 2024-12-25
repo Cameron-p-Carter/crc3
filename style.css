@@ -1,6 +1,6 @@
 :root {
   --background-color: rgb(0, 0, 0);
-  --border-color: rgb(255, 255, 255, 1);
+  --border-color: rgb(255, 255, 255, 0.2);
 }
 
 body {
@@ -34,10 +34,9 @@ nav {
 }
 
 nav .nav-section {
-  padding: 3rem 2rem;
+  padding: 1rem 0.5rem;
   display: flex;
   gap: 1rem;
-  border-left: 1px solid var(--border-color);
   align-items: center;
   justify-content: center;
 }
@@ -45,6 +44,7 @@ nav .nav-section {
 #nav-top-section {
   display: flex;
   flex-basis: calc(100% * (1 / 2));
+  border-left: 1px solid var(--border-color);
   z-index: 2;
 }
 
@@ -53,6 +53,7 @@ nav .nav-section {
 #nav-social-section,
 #nav-contact-section {
   flex-grow: 1;
+  border-left: 1px solid var(--border-color);
 }
 
 #nav-logo-section {
@@ -112,3 +113,11 @@ main > article > .article-image-section {
   background-position: center;
   background-size: cover;
 }
+
+main > article > .article-description-section {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 4rem;
+  font-size: 1.25rem;
+}
+
