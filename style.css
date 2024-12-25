@@ -108,10 +108,14 @@ main > article > .article-description-section {
   border-bottom: 1px solid var(--border-color);
 }
 
+
+
 main > article > .article-image-section {
-  background-image: url("https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg");
+  background-image: url("images/yes5.png");
+  image-rendering: pixelated;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
+  object-fit: fill;
 }
 
 main > article > .article-description-section {
