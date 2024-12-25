@@ -91,5 +91,19 @@ main > article {
 
 }
 
+main > article > .article-section {
+  height: 100%;
+  display: flex;
+}
 
+
+main > article > .article-description-section,
+main > article > .article-nav-section {
+  border-left: 1px solid var(--border-color);
+}
+  
+main > article > .article-image-section,
+main > article > .article-description-section {
+  border-bottom: 1px solid var(--border-color);
+}
 
