@@ -107,3 +107,6 @@ main > article > .article-description-section {
   border-bottom: 1px solid var(--border-color);
 }
 
+main > article > .article-image-section {
+  background-image: url("https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg");
+}
