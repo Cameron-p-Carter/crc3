@@ -34,7 +34,7 @@ nav {
 }
 
 nav .nav-section {
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -61,8 +61,16 @@ nav .nav-section {
   justify-content: flex-start;
 }
 
-#nav-logo-section > a > i {
-  font-size: 2.5rem;
+#nav-logo-section > a {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 2rem;
+  background-image: url('images/Last_Prism.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
 }
 
 #nav-link-section {
@@ -147,6 +155,7 @@ main > article > .article-nav-section > .article-nav-button {
   border: none;
   outline: none;
   font-size: 3rem;
+  cursor: pointer;
 }
 
 
